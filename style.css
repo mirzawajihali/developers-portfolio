@@ -2,7 +2,8 @@
     padding:0 ;}
 
 body {background-image: url(design.jpg);
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;
+  background-size: cover;}
 
     .topnav {
         background-color: #333;
@@ -38,7 +39,13 @@ body {background-image: url(design.jpg);
         color: whote;
         }
 
-section{ display: flex;}
+.boom{ display: flex;
+  color:pink;
+  padding: 20px;
+
+  width: 100%;}
+
+
 .container { margin: 50px;  
     width: 40%;
     padding: 20px;
@@ -47,7 +54,8 @@ section{ display: flex;}
 .container img { width: 100%;
             ;}
 
-span {color: orange;}
+.orange{color: orange;}
+
 
 .button { text-decoration: none;
    
@@ -60,6 +68,19 @@ span {color: orange;}
 
             }
 
-            .button:hover{
-                            background-color: black;
-                            color: white;}
+.button:hover{
+             background-color: black;
+             color: white;}
+.ciao {text-align: center;
+      color: white;
+       margin: 0px 0px 20px 0px}
+  .teal {color: rgb(1, 68, 68);
+  }
+
+  .experience {width: 40%;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+  margin-left: 5%;
+margin-right: 5%;
+padding: 5%;
+
+}
