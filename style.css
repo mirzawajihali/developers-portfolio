@@ -1,9 +1,7 @@
 * { margin: 0;
     padding:0 ;}
 
-body {background-image: url(design.jpg);
-    background-repeat: no-repeat;
-  background-size: cover;}
+body {}
 
     .topnav {
         background-color: #333;
@@ -39,11 +37,17 @@ body {background-image: url(design.jpg);
         color: whote;
         }
 
-.boom{ display: flex;
-  color:pink;
-  padding: 20px;
+.information { background-image: url(images/design.jpg);
+  background-repeat: no-repeat;
+background-size: cover;}
 
+.boom{
+  display: flex;
+  color:rgb(255, 255, 255);
+  padding: 20px;
   width: 100%;}
+
+ 
 
 
 .container { margin: 50px;  
@@ -68,19 +72,24 @@ body {background-image: url(design.jpg);
 
             }
 
-.button:hover{
-             background-color: black;
-             color: white;}
+.button:hover {background-color: grey;
+                color: white;}
 .ciao {text-align: center;
       color: white;
        margin: 0px 0px 20px 0px}
   .teal {color: rgb(1, 68, 68);
-  }
+        text-shadow: 2px 2px 5px grey;}
 
-  .experience {width: 40%;
+  .experience {width: 35%;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
   margin-left: 5%;
 margin-right: 5%;
 padding: 5%;
 
 }
+table {border-collapse: collapse;
+  }
+td {border: 2px solid grey;
+  padding: 1px 5px;
+}
+thead {font-weight: 700;}
