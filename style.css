@@ -136,7 +136,9 @@ padding: 5%;}
   box-shadow: 5px 5px 10px grey;
 }
 
-#heh input::placeholder {font-size: 1.3em;}
+#heh input::placeholder {font-size: 1.3em;
+                        color: black;
+                      font-weight: 700;}
 
 #heh button {font-size: 1.4em;
               font-weight: 700;
