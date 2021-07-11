@@ -146,10 +146,12 @@ padding: 5%;}
             padding: 3px 20px;
             border-radius: 10px;}
 
-.calendar {display: grid;
+.calendar {
+
+  display: grid;
           grid-template-columns: repeat(7, 1fr);}
 
-.date {background-color: grey;
+.date {background-color: rgb(51, 51, 51);
         border: 3px solid black;
       margin: 10px;
       padding: 30px;
@@ -163,7 +165,7 @@ padding: 5%;}
         color: white;
       font-weight: 700;
      
-      border: 3px solid rgb(29, 18, 77);
+      border: 3px solid rgb(20, 15, 39);
     margin: 10px;
     padding: 30px;
     font-size: 3em;
@@ -171,3 +173,55 @@ padding: 5%;}
     align-items: center;
     justify-content: center;
     border-radius: 10px ;}
+
+.other-month {background-color: rgb(155, 155, 155);
+  border: 3px solid black;
+margin: 10px;
+padding: 30px;
+font-size: 3em;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px ;}
+
+
+
+.photo-album {text-align: center;
+              display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+          }
+ 
+#album-title {text-align: center;}
+
+.photo-frame {width: 300px;
+              height: 400px;
+              margin: 20px;
+              border: 3px solid black;
+              border-radius: 10px;
+              position: relative;
+              overflow: hidden;}
+
+  
+.photo-frame .photo img {width: 100%;
+                        height: 400px;
+  border-radius: 10px;
+}
+
+  .photo-detail {display: none;
+                color: white;
+                font-weight: 600;
+              position: absolute;
+            top: 60px;}
+.photo-detail h2 {font-family: 'Bebas Neue', cursive;
+                  font-weight: 700;
+                  font-size: 1.4em;
+                background-color: white;
+                color: black;}
+
+
+.photo-frame:hover .photo-detail {display: block;
+background-color: rgba(0, 0, 0, 0.678);}
+
+.photo-frame:hover .photo  {transform: scale(1.3);
+                                }
